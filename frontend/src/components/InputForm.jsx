@@ -40,7 +40,7 @@ const InputForm = ({ onCalculate, setLoading }) => {
                         fontWeight: "bold",
                     }}
                 >
-                    Vehicle Capacity:
+                    Vehicle Cap:
                 </label>
                 <input
                     type="number"
