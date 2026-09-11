@@ -1,0 +1,12 @@
+name: Autofix CI Test
+
+on:
+  push:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Intentionally fail
+        run: exit 1
